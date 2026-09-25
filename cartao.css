@@ -1,0 +1,38 @@
+body {
+    background-color :rgb(72, 72, 155);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 30px;
+}
+
+span {
+    font-size: larger;
+    font-weight: bold;
+}
+
+button {
+    background-color: yellow;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: green;
+}
